@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>DecisionApp</title>
+  </head>
+  <body>
+    <form class="d-flex flex-col align-center">
+      <label for="task">
+        <h1>I can help you decide, bro.</h1>
+      </label>
+
+      <input type="text" id="task" placeholder="ask me a question" />
+    </form>
+    <section class="img-container d-flex justify-center">
+      <article id="thinking" class="hide">k, Let me think...</article>
+      <article id="img-article"></article>
+
+      <h1 id="answer-text"></h1>
+    </section>
+    <script src="./app.js"></script>
+  </body>
+</html>
